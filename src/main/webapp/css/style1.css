@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.img{
+	
+	height:400px;
+	margin-top:4px;
+}
+
+
+.load
+{   text-align:center;
+	width:1000px;
+	height:300px
+}	
+.navbar
+{
+	background:#5B21B6;
+	
+}
+.body
+{
+	background: #180148;
+}
+.contain
+{ 
+	           
+                border:4px solid #180148;
+                margin:top;
+                padding: 30px;
+                font-size: 20px;
+               color:#c0c0c0;	
+	
+}
+.tables
+{
+	
+	
+	 color:white;	
+	font-size: 20px;
+}
+.contain1
+{
+	width:40%;
+	padding:40px;
+	margin-left:40px;
+	font-size: 20px;
+	 color:#c0c0c0;	
+}
+.addTeachers
+{
+	            width:30%;
+	            height:30%;
+                margin-left:7%;
+               margin-top:10px;
+                font-size: 20px;
+                color:#c0c0c0;	
+	
+}
+

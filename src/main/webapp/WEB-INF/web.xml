@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>DeleteServletdrct</servlet-name>
+  	<display-name>DeleteServletdrct</display-name>
+  	<description></description>
+  	<servlet-class>com.helper.DeleteServletdrct</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateTeacherDisplay</servlet-name>
+  	<display-name>UpdateTeacherDisplay</display-name>
+  	<description></description>
+  	<servlet-class>com.helper.UpdateTeacherDisplay</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateStudentsDisplay</servlet-name>
+  	<display-name>UpdateStudentsDisplay</display-name>
+  	<description></description>
+  	<servlet-class>com.helper.UpdateStudentsDisplay</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RemoveStudentDisplay</servlet-name>
+  	<display-name>RemoveStudentDisplay</display-name>
+  	<description></description>
+  	<servlet-class>com.helper.RemoveStudentDisplay</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SearchTeacher</servlet-name>
+  	<display-name>SearchTeacher</display-name>
+  	<description></description>
+  	<servlet-class>com.helper.SearchTeacher</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SearchStudent</servlet-name>
+  	<display-name>SearchStudent</display-name>
+  	<description></description>
+  	<servlet-class>com.helper.SearchStudent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DeleteServletdrct</servlet-name>
+  	<url-pattern>/DeleteServletdrct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateTeacherDisplay</servlet-name>
+  	<url-pattern>/UpdateTeacherDisplay</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateStudentsDisplay</servlet-name>
+  	<url-pattern>/UpdateStudentsDisplay</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RemoveStudentDisplay</servlet-name>
+  	<url-pattern>/RemoveStudentDisplay</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SearchTeacher</servlet-name>
+  	<url-pattern>/SearchTeacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SearchStudent</servlet-name>
+  	<url-pattern>/SearchStudent</url-pattern>
+  </servlet-mapping>
+</web-app>
